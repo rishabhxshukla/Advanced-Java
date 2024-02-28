@@ -1,6 +1,7 @@
+package NonTerminalMethods;
 import java.util.*;
 
-class Sorting
+class Sorted
 {
     public static void main(String args[])
     {

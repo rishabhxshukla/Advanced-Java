@@ -1,3 +1,4 @@
+package TerminalMethods;
 import java.util.*;
 
 class Reduce

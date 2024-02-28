@@ -1,3 +1,4 @@
+package NonTerminalMethods;
 import java.util.*;
 
 class FilterSortMap
@@ -10,6 +11,6 @@ class FilterSortMap
                 .filter(num -> num % 2 == 0)
                 .sorted()
                 .map(num -> num * num)
-                .forEach(num -> System.out.println(num));
+                .forEach(System.out::println);
     }
 }

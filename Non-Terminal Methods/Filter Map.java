@@ -17,7 +17,7 @@ class Employee
 }
 
 
-class MapFilter
+class FilterMap
 {
     public static void main(String args[])
     {
