@@ -11,7 +11,7 @@ class Sorting
         //Ascending order
         ans = numbers
                 .stream()
-                .sorted((x,y) -> x.compareTo(y))
+                .sorted()
                 .toList();
 
         System.out.println(ans);
@@ -19,7 +19,7 @@ class Sorting
         //Descending order
         ans = numbers
                 .stream()
-                .sorted((x,y) -> y.compareTo(x))
+                .sorted(Comparator.reverseOrder())
                 .toList();
 
         System.out.println(ans);
