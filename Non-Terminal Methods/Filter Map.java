@@ -28,8 +28,7 @@ class FilterMap
         employees.add(new Employee(104, "Tiffany", 22000));
         employees.add(new Employee(105, "Caroline", 40000));
 
-
-        System.out.println("Salaries > 25000 :\n");
+        System.out.println("Salaries > 25000 :");
 
         List<Integer> ans = employees
                 .stream()

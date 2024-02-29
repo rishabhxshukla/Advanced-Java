@@ -7,6 +7,7 @@ class ForEach
     {
         List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
 
+        //Printing all the elements
         numbers
                 .stream()
                 .forEach(System.out::println);

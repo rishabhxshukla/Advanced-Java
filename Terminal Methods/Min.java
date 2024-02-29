@@ -7,6 +7,7 @@ class Min
     {
         List<Integer> vehicles = Arrays.asList(3, 1, 5, 2, 4);
 
+        //Finding min element
         int ans = vehicles
                 .stream()
                 .min((x, y) -> x.compareTo(y))

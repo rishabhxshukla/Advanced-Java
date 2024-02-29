@@ -7,6 +7,7 @@ class Count
     {
         List<String> vehicles = Arrays.asList("car", "bike", "bus", "bike", "car");
 
+        //Finding number of elements
         long ans = vehicles
                 .stream()
                 .count();

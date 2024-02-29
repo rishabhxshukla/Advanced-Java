@@ -7,6 +7,7 @@ class Max
     {
         List<Integer> vehicles = Arrays.asList(3, 1, 5, 2, 4);
 
+        //Finding max element
         int ans = vehicles
                 .stream()
                 .max((x, y) -> x.compareTo(y))

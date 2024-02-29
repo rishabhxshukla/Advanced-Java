@@ -7,6 +7,7 @@ class ToArray
     {
         List<Integer> vehicles = Arrays.asList(3, 1, 5, 2, 4);
 
+        //Converting list to array
         Object ans[] = vehicles.toArray();
 
         //Printing the array
