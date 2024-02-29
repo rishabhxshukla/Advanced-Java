@@ -1,3 +1,4 @@
+package SequentialStream;
 import java.util.*;
 import java.util.stream.*;
 
@@ -16,7 +17,6 @@ class EvenOdd
 
         //Iterating over list to find even and odd numbers
         numbers.forEach((num) -> {
-
             if (num % 2 == 0) {
                 even.add(num);
             }
@@ -34,7 +34,7 @@ class EvenOdd
     /* Separating even-odd numbers with stream */
     void withStream()
     {
-        //Creating a stream
+        //Creating 2 streams
         Stream<Integer> stream1 = numbers.stream();
         Stream<Integer> stream2 = numbers.stream();
 
