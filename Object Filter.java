@@ -27,7 +27,6 @@ class ObjectFilter
         products.add(new Product(104, "Dell", 1120.45));
         products.add(new Product(105, "Apple", 1999.0));
 
-
         System.out.println("Items where price > 1200 :\n");
         products
                 .stream()
