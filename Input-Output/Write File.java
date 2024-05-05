@@ -1,7 +1,7 @@
 package InputOutput;
 import java.nio.file.*;
 
-class UpdateFile
+class WriteFile
 {
     public static void main(String args[])
     {
@@ -12,7 +12,7 @@ class UpdateFile
             if (Files.exists(path)) {
                 String data = "This is a sample text data.";
                 Files.write(path, data.getBytes());
-                System.out.println("File updated!");
+                System.out.println("File written!");
             }
             else {
                 System.out.println("No such file present!");

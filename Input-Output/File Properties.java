@@ -16,6 +16,12 @@ class FileProperties
         //Root folder
         System.out.println(path.getRoot());
 
+        //Specific parent folder
+        System.out.println(path.getName(1));
+
+        //Sub-path folder
+        System.out.println(path.subpath(0, 2));
+
         //File name
         System.out.println(path.getFileName());
 
@@ -24,5 +30,11 @@ class FileProperties
 
         //File does not exist
         System.out.println(Files.notExists(path));
+
+        //File system
+        System.out.println(path.getFileSystem());
+
+        //Path to String
+        System.out.println(path.toString());
     }
 }
