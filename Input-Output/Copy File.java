@@ -8,9 +8,9 @@ class CopyFile
         try
         {
             //Original file path
-            Path source = Paths.get("D:\\PROGRAMMING\\Java Swing\\Input-Output\\test.txt");
+            Path source = Paths.get("D:\\PROGRAMMING\\Java (Advanced)\\Input-Output\\test.txt");
             //New file path
-            Path destination = Paths.get("D:\\PROGRAMMING\\Java Swing\\Input-Output\\test_copy.txt");
+            Path destination = Paths.get("D:\\PROGRAMMING\\Java (Advanced)\\Input-Output\\test_copy.txt");
 
             if (Files.exists(source)) {
                 //Copying the file

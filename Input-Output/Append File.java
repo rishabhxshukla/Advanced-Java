@@ -7,7 +7,7 @@ class AppendData
     {
         try
         {
-            Path path = Paths.get("D:\\PROGRAMMING\\Java Swing\\Input-Output\\test.txt");
+            Path path = Paths.get("D:\\PROGRAMMING\\Java (Advanced)\\Input-Output\\test.txt");
 
             if (Files.exists(path)) {
                 String data = "\nNew text appended.";

@@ -9,12 +9,12 @@ class CopyData
         try
         {
             //Original file path
-            Path oldFile = Paths.get("D:\\PROGRAMMING\\Java Swing\\Input-Output\\test.txt");
+            Path oldFile = Paths.get("D:\\PROGRAMMING\\Java (Advanced)\\Input-Output\\test.txt");
 
             if (Files.exists(oldFile)) {
 
                 //Creating new file
-                Path newFile = Paths.get("D:\\PROGRAMMING\\Java Swing\\Input-Output\\abc.txt");
+                Path newFile = Paths.get("D:\\PROGRAMMING\\Java (Advanced)\\Input-Output\\abc.txt");
                 Files.createFile(newFile);
 
                 //Reading old file
