@@ -1,6 +1,6 @@
 import java.time.*;
 
-class DateAPI
+class LocalDateAPI
 {
     public static void main(String args[])
     {

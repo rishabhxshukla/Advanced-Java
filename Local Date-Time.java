@@ -2,7 +2,7 @@
 
 import java.time.*;
 
-class DateTimeAPI
+class LocalDateTimeAPI
 {
     public static void main(String args[])
     {
